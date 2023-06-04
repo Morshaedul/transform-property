@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform property</title>
+    <style>
+        .transform {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            transition-duration:3s ;
+            transition-delay:.5s;
+            box-sizing: border-box;
+            margin: 0 auto;
+            margin-top: 200px;
+            transition: width 2s ease-in;  
+        }
+        .transform:hover{
+            transform: rotate(-25deg);
+            width: 400px;
+        }
+        h1{
+            text-align: center;
+            font-size: 30px;
+            transition: font-size 2s ease-in;
+        }
+        h1:hover{
+            font-size: 60px;
+            cursor: pointer;
+            color: white;
+        }
+
+
+        
+       
+        
+    </style>
+
+</head>
+<body>
+    <div class="transform">
+        <h1>Transition</h1>
+
+    </div>
+   
+    
+</body>
+</html>
